@@ -1,7 +1,7 @@
-module Graph 
-( module Graph.Types
-, module Graph.BellmanFord
-, module Graph.DFS
+module Utils.HaskellDataflow.Graph 
+( module Utils.HaskellDataflow.Graph.Types
+, module Utils.HaskellDataflow.Graph.BellmanFord
+, module Utils.HaskellDataflow.Graph.DFS
 --, dfsHO
 --, dfsU
 --, dfsGU
@@ -9,9 +9,11 @@ module Graph
 , findPathInTreeEdgeList
 ) where
 
-import Graph.Types
-import Graph.BellmanFord
-import Graph.DFS
+import Prelude
+
+import Utils.HaskellDataflow.Graph.Types
+import Utils.HaskellDataflow.Graph.BellmanFord
+import Utils.HaskellDataflow.Graph.DFS
 
 
 --- TODO move to a separate module?

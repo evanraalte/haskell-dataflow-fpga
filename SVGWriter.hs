@@ -1,5 +1,5 @@
 {-# LANGUAGE OverloadedStrings #-}
-module SVGWriter where
+module Utils.HaskellDataflow.SVGWriter where
 
 import Graphics.Svg
 

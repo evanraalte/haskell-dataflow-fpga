@@ -1,4 +1,4 @@
-module Hardware
+module Utils.HaskellDataflow.Hardware
 ( module Hardware.Types
 , module Hardware.Clock
 ) where

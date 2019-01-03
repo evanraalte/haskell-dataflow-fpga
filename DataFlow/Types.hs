@@ -1,9 +1,11 @@
-module DataFlow.Types 
+module Utils.HaskellDataflow.DataFlow.Types 
 ( module Data.Ratio
-, module DataFlow.Types
+, module Utils.HaskellDataflow.DataFlow.Types
 ) where
 
-import Graph
+import Prelude
+
+import Utils.HaskellDataflow.Graph
 
 import qualified Data.Map as M
 import Data.Ratio

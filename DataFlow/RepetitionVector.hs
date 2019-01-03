@@ -1,8 +1,11 @@
-module DataFlow.RepetitionVector where
+module Utils.HaskellDataflow.DataFlow.RepetitionVector where
 
-import DataFlow.Types
 
-import Graph
+import Prelude
+
+import Utils.HaskellDataflow.DataFlow.Types
+
+import Utils.HaskellDataflow.Graph
 
 
 import qualified Data.Map as M

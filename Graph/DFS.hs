@@ -1,7 +1,7 @@
-module Graph.DFS where
+module Utils.HaskellDataflow.Graph.DFS where
 
-import Graph.Types
-
+import Utils.HaskellDataflow.Graph.Types
+import Prelude
 import qualified Data.Set as S
 import qualified Data.Map as M
 import Data.List

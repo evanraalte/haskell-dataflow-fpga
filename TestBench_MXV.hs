@@ -1,9 +1,9 @@
-module TestBench_MXV where
+module Utils.HaskellDataflow.TestBench_MXV where
 
 import qualified Data.Map as M
 
-import Graph
-import DataFlow
+import Utils.HaskellDataflow.Graph
+import Utils.HaskellDataflow.DataFlow
 
 
 mxv0 = Graph (M.fromList

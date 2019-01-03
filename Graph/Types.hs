@@ -1,8 +1,8 @@
-module Graph.Types 
+module Utils.HaskellDataflow.Graph.Types 
 ( module Data.Ratio
-, module Graph.Types
+, module Utils.HaskellDataflow.Graph.Types
 ) where
-
+import Prelude
 import qualified Data.Map as M
 import Data.Ratio
 

@@ -1,11 +1,13 @@
-module DataFlow.StrictlyPeriodicSchedule where
+module Utils.HaskellDataflow.DataFlow.StrictlyPeriodicSchedule where
 
-import Graph
-import DataFlow.Types
-import DataFlow.Modulus
-import DataFlow.RepetitionVector
-import DataFlow.NormalizationVector
-import DataFlow.MaxCycleRatio
+import Prelude
+
+import Utils.HaskellDataflow.Graph
+import Utils.HaskellDataflow.DataFlow.Types
+import Utils.HaskellDataflow.DataFlow.Modulus
+import Utils.HaskellDataflow.DataFlow.RepetitionVector
+import Utils.HaskellDataflow.DataFlow.NormalizationVector
+import Utils.HaskellDataflow.DataFlow.MaxCycleRatio
 
 import qualified Data.Map as M
 import qualified Data.List as L

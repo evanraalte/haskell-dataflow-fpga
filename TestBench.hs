@@ -1,17 +1,17 @@
-module TestBench where
+module Utils.HaskellDataflow.TestBench where
 
 import qualified Data.Map as M
 import Data.List
 import Data.Maybe
 import Data.Tuple
 
-import DataFlow
-import Graph
-import Hardware
+import Utils.HaskellDataflow.DataFlow
+import Utils.HaskellDataflow.Graph
+import Utils.HaskellDataflow.Hardware
 
-import TestBench_MXV
+import Utils.HaskellDataflow.TestBench_MXV
 
-import SVGWriter
+import Utils.HaskellDataflow.SVGWriter
 
 hsdfNode l ex = (l,HSDFNode l ex)
 csdfNode l ex = (l,CSDFNode l ex)

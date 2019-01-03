@@ -1,8 +1,10 @@
-module DataFlow.MaxCycleRatio where
+module Utils.HaskellDataflow.DataFlow.MaxCycleRatio where
 
-import Graph
+import Prelude
 
-import DataFlow.Types
+import Utils.HaskellDataflow.Graph
+
+import Utils.HaskellDataflow.DataFlow.Types
 
 import qualified Data.Map as M
 import Data.Maybe

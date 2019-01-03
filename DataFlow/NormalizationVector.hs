@@ -1,10 +1,12 @@
-module DataFlow.NormalizationVector where
+module Utils.HaskellDataflow.DataFlow.NormalizationVector where
 
-import DataFlow.Types
-import DataFlow.RepetitionVector
-import DataFlow.Modulus
+import Prelude
 
-import Graph
+import Utils.HaskellDataflow.DataFlow.Types
+import Utils.HaskellDataflow.DataFlow.RepetitionVector
+import Utils.HaskellDataflow.DataFlow.Modulus
+
+import Utils.HaskellDataflow.Graph
 
 import Data.Map as M
 
