@@ -1,10 +1,10 @@
 module Utils.HaskellDataflow.Hardware
-( module Hardware.Types
-, module Hardware.Clock
+( module Utils.HaskellDataflow.Hardware.Types
+, module Utils.HaskellDataflow.Hardware.Clock
 ) where
 
-import Hardware.Types
-import Hardware.Clock
+import Utils.HaskellDataflow.Hardware.Types
+import Utils.HaskellDataflow.Hardware.Clock
 
 
 

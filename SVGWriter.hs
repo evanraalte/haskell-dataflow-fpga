@@ -1,6 +1,6 @@
 {-# LANGUAGE OverloadedStrings #-}
 module Utils.HaskellDataflow.SVGWriter where
-
+import Prelude 
 import Graphics.Svg
 
 import Data.Text.Internal
@@ -9,9 +9,9 @@ import Data.String
 import Data.Ratio
 import Data.Maybe
 
-import Hardware
-import DataFlow
-import Graph
+import Utils.HaskellDataflow.Hardware
+import Utils.HaskellDataflow.DataFlow
+import Utils.HaskellDataflow.Graph
 
 scalar = 20
 leftMargin = 100
@@ -162,7 +162,7 @@ svgSchedule graph
     Just (clkP',tP') = clock graph
     clkP = (fromIntegral scalar) * (fromInteger $ numerator clkP') / (fromInteger $ denominator clkP')
     tP   = (fromIntegral scalar) * (fromInteger $ numerator tP'  ) / (fromInteger $ denominator tP'  )
-    path = "../schedules/svg.svg"
+    path = "./schedule.svg"
 --    Just (mcr, _) = clock graph
 
 

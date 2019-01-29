@@ -1,1 +1,2 @@
-module Hardware.Types where
+module Utils.HaskellDataflow.Hardware.Types where
+import Prelude

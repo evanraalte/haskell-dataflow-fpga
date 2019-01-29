@@ -1,10 +1,11 @@
-module Hardware.Clock where
+module Utils.HaskellDataflow.Hardware.Clock where
 
+import Prelude
 import qualified Data.Map as M
 import Data.Maybe
 
-import DataFlow
-import Graph
+import Utils.HaskellDataflow.DataFlow
+import Utils.HaskellDataflow.Graph
 
 -- clock is gcd (M/r0, M/r1, ..., M/rn) * mcr
 -- total period is M*mcr
